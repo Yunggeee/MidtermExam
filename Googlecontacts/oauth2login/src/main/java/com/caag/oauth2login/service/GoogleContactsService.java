@@ -1,4 +1,4 @@
-package com.arela.oauth2login.service;
+package com.caag.oauth2login.service;
 
 // test comment
 import org.slf4j.Logger;

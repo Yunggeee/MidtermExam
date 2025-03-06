@@ -1,4 +1,4 @@
-package com.arela.oauth2login.controller;
+package com.caag.oauth2login.controller;
 
 import java.util.Map;
 

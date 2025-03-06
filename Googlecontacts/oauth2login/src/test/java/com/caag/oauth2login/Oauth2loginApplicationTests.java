@@ -1,4 +1,4 @@
-package com.arela.oauth2login;
+package com.caag.oauth2login;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

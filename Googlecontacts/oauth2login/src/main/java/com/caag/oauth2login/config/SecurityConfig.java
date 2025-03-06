@@ -1,4 +1,4 @@
-package com.arela.oauth2login.config;
+package com.caag.oauth2login.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

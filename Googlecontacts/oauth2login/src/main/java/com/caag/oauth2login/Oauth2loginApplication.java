@@ -1,4 +1,4 @@
-package com.arela.oauth2login;
+package com.caag.oauth2login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

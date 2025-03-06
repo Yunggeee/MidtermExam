@@ -1,4 +1,4 @@
-package com.arela.oauth2login.controller;
+package com.caag.oauth2login.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,9 +10,9 @@ import org.springframework.security.oauth2.client.OAuth2AuthorizedClientService;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import com.arela.oauth2login.dto.UpdateContactRequest; // Import the DTO
 
-import com.arela.oauth2login.service.GoogleContactsService;
+import com.caag.oauth2login.dto.UpdateContactRequest;
+import com.caag.oauth2login.service.GoogleContactsService;
 
 import java.util.List;
 
