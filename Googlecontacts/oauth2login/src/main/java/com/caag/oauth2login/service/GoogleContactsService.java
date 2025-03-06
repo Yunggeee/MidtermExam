@@ -3,7 +3,6 @@ package com.caag.oauth2login.service;
 // test comment
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
@@ -21,8 +20,7 @@ public class GoogleContactsService {
     private final RestTemplate restTemplate;
     private final ObjectMapper objectMapper;
     private static final Logger logger = LoggerFactory.getLogger(GoogleContactsService.class);
-
-    @Autowired
+ 
     public GoogleContactsService(RestTemplateBuilder restTemplateBuilder, ObjectMapper objectMapper) {
         this.restTemplate = restTemplateBuilder.build();
         this.objectMapper = objectMapper;
