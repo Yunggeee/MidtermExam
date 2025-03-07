@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.arela</groupId>
+    <groupId>com.caag</groupId>
     <artifactId>oauth2login</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>oauth2login</name>

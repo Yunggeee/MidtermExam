@@ -25,7 +25,7 @@
       }
 
       .container {
-        width: 1500px;
+        width: 1600px;
         background: rgba(255, 255, 255, 0.15);
         padding: 50px; /* More padding for spacing */
         border-radius: 18px;
@@ -191,7 +191,6 @@
           <span
             th:unless="${#authentication != null and #authentication.principal != null}"
           >
-            Guest
           </span>
         </div>
         <a href="/logout" class="logout-button">Logout</a>
